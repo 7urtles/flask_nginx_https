@@ -1,5 +1,6 @@
 # flask_nginx_https
-Quickly gets a basic Flask application online with https enabled.<br><br>
+Quickly gets a basic Flask application online with https enabled.<br>
+-Built and tested on Ubuntu 20.04.3 LTS. <br><br>
 
 **BEFORE RUNNING**<br>
 
