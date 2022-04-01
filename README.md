@@ -5,9 +5,8 @@ Quickly gets a basic Flask application online with https enabled.<br>
 **BEFORE RUNNING**<br>
 
 -Ensure your domain is online and active via https.<br>
--If you are using CloudFlare or the like for DNS it is likely the domains SSL<br>settings need to be set to FULL.
--By default only the url of the chosen domain will be enabled. To enable extend routes comment out the line: "try_files $uri $uri/ =404;"
- located within the sever blocks location field in the file /etc/nginx/sites-avaliable/default<br><br><br>
+-If you are using CloudFlare or the like for DNS it is likely the domains SSL<br>settings need to be set to FULL.<br><br><br>
+
 
 
 <h3>Scripts actions are as such:</h3>
@@ -27,3 +26,7 @@ git clone https://github.com/chparmley/flask_nginx_https.git
 chmod +x flask_nginx_https.sh
 ./flask_nginx_https.sh
 ```
+<br><br>
+**AFTER RUNNING**<br>
+-By default only the url of the chosen domain will be enabled. To enable extend routes comment out the line: "try_files $uri $uri/ =404;"
+ located within the sever blocks location field in the file /etc/nginx/sites-avaliable/default
