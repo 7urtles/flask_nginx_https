@@ -1,5 +1,5 @@
 # flask_nginx_https
-Quickly gets a basic Flask application online with https enabled.
+Quickly gets a basic Flask application online with https enabled.<br><br>
 
 **BEFORE RUNNING**<br>
 
