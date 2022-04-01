@@ -7,7 +7,7 @@ BEFORE RUNNING!<br>
 -If you are using CloudFlare or something similar for DNS it is likely the domain SSL<br>settings need to be set to FULL.
 
 
-<h3>Installation process<h3>
+<h3>Installation process</h3>
 The scripts actions are as such:<br>
 1. Installs Nginx then configures a server block for user specified domains.<br>
 2. Creates a project directory along with virtual environment and installs flask to it.<br>
