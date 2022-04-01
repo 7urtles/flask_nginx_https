@@ -1,5 +1,5 @@
 # flask_nginx_https
-Script to quickly get a basic Flask application online with https enabled.
+Quickly gets a basic Flask application online with https enabled.
 
 **BEFORE RUNNING**<br>
 
