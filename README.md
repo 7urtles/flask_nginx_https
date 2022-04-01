@@ -4,7 +4,7 @@ Script to quickly get a basic Flask application online with https enabled.
 **BEFORE RUNNING**<br>
 
 -Ensure your domain is online and active via https.<br>
--If you are using CloudFlare or something similar for DNS it is likely the domain SSL<br>settings need to be set to FULL.<br>
+-If you are using CloudFlare or something similar for DNS it is likely the domain SSL<br>settings need to be set to FULL.<br><br><br>
 
 
 <h3>Installation process</h3>
