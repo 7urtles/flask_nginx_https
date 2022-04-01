@@ -19,7 +19,7 @@ After following the prompts to configure the Flask application and configure SSL
 
 **ALWAYS READ SCRIPTS PRIOR TO RUNNING**<br>
 ```
-git clone.....
+git clone https://github.com/chparmley/flask_nginx_https.git
 chmod +x flask_nginx_https.sh
 ./flask_nginx_https.sh
 ```
