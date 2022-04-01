@@ -17,7 +17,7 @@ Quickly gets a basic Flask application online with https enabled.<br>
 
 After following the prompts to configure the Flask application and configure SSL the<br>server will run displaying the servers local IP address and active PORT number.<br>
 
-The script currently creates no back ups of nginx configurations. It is recommended to back up /etc/nginx/sites-available/default prior to running.<br><br>
+The script currently creates no back ups of nginx-configurations. It is recommended to back up /etc/nginx/sites-available/default prior to running if Nginx is already installed.<br><br>
 
 **ALWAYS READ SCRIPTS PRIOR TO RUNNING**<br>
 ```
