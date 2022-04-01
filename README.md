@@ -17,7 +17,6 @@ Quickly gets a basic Flask application online with https enabled.<br><br>
 After following the prompts to configure the Flask application and configure SSL the<br>server will run displaying the servers local IP address and active PORT number.<br><br>
 
 **ALWAYS READ SCRIPTS PRIOR TO RUNNING**<br>
-Usage:<br>
 ```
 git clone.....
 chmod +x flask_nginx_https.sh
