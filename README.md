@@ -5,7 +5,7 @@ Quickly gets a basic Flask application online with https enabled.<br>
 **BEFORE RUNNING**<br>
 
 -Ensure your domain is online and active via https.<br>
--If you are using CloudFlare or something similar for DNS it is likely the domain SSL<br>settings need to be set to FULL.<br><br><br>
+-If you are using CloudFlare or the like for DNS it is likely the domains SSL<br>settings need to be set to FULL.<br><br><br>
 
 
 <h3>Scripts actions are as such:</h3>
