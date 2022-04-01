@@ -18,7 +18,7 @@ Quickly gets a basic Flask application online with https enabled.<br>
 
 After following the prompts to configure the Flask application and configure SSL the<br>server will run displaying the servers local IP address and active PORT number.<br>
 
-The script currently creates no back ups of nginx-configurations. It is recommended to back up /etc/nginx/sites-available/default prior to running if Nginx is already installed.<br><br>
+The script currently creates no back ups of nginx-configurations. It is recommended to back up ```/etc/nginx/sites-available/default``` prior to running if Nginx is already installed.<br><br>
 
 **ALWAYS READ SCRIPTS PRIOR TO RUNNING**<br>
 ```
@@ -28,4 +28,4 @@ chmod +x flask_nginx_https.sh
 ```
 <br><br>
 **AFTER RUNNING**<br>
--By default only the url of the chosen domain will be enabled. To enable extend routes comment out the line: "try_files $uri $uri/ =404;" located within the domains sever block location field in /etc/nginx/sites-avaliable/default
+-By default only the url of the chosen domain will be enabled. To enable extend routes comment out the line: ```try_files $uri $uri/ =404;``` located within the domains sever block location field in ```/etc/nginx/sites-avaliable/default```
