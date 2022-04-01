@@ -29,4 +29,4 @@ chmod +x flask_nginx_https.sh
 <br><br>
 **AFTER RUNNING**<br>
 -By default only the url of the chosen domain will be enabled. To enable extend routes comment out the line: "try_files $uri $uri/ =404;"
- located within the sever blocks location field in the file /etc/nginx/sites-avaliable/default
+  located within the sever blocks location field in the file /etc/nginx/sites-avaliable/default
