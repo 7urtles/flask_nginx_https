@@ -15,7 +15,9 @@ Quickly gets a basic Flask application online with https enabled.<br>
 4. Installs and runs CertBot create a certificate and enable https for the entered domains. <br><br><br>
 
 
-After following the prompts to configure the Flask application and configure SSL the<br>server will run displaying the servers local IP address and active PORT number.<br><br>
+After following the prompts to configure the Flask application and configure SSL the<br>server will run displaying the servers local IP address and active PORT number.<br>
+
+The script currently creates no back ups of nginx configurations. It is recommended to back up /etc/nginx/sites-available/default prior to running.<br><br>
 
 **ALWAYS READ SCRIPTS PRIOR TO RUNNING**<br>
 ```
