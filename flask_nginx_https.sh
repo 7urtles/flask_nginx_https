@@ -18,6 +18,7 @@ setup_nginx() {
 }
 
 setup_venv() {
+  sudo apt install python3-venv
   mkdir $project_name && cd $project_name
   python3 -m venv venv
   source venv/bin/activate
