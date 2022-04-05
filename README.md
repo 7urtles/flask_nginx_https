@@ -4,7 +4,7 @@ Quickly gets a basic Flask application online and communicating over https.<br>
 
 **BEFORE RUNNING**<br>
 
--Ensure your domain is online and active via https.<br>
+-Ensure your domain is online and active via http.<br>
 -If you are using CloudFlare or the like for DNS it is likely the domains SSL<br>settings need to be set to FULL.<br><br><br>
 
 
