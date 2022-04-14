@@ -24,6 +24,7 @@ It is recommended to back up ```/etc/nginx/sites-available/default``` prior to r
 **ALWAYS READ SCRIPTS PRIOR TO RUNNING**<br>
 ```
 git clone https://github.com/chparmley/flask_nginx_https.git
+cd flack_nginx_https
 chmod +x flask_nginx_https.sh
 ./flask_nginx_https.sh
 ```
