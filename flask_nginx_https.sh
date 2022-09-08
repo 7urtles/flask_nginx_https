@@ -21,7 +21,7 @@ setup_nginx() {
 setup_venv() {
   sudo apt install python3-venv
   sudo mkdir /var/www/${project_name}
-  python3 -m venv /var/www/${project_name}/venv
+  sudo python3 -m venv /var/www/${project_name}/venv
   source /var/www/${project_name}/venv/bin/activate
   pip install uwsgi flask flask-restful gunicorn
   deactivate
