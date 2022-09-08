@@ -53,3 +53,4 @@ setup_venv;
 create_files;
 config_certbot;
 load_application;
+gunicorn --bind mydomain.com:${application_port} wsgi:app
