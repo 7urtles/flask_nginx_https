@@ -16,6 +16,7 @@ setup_nginx() {
   sudo apt install nginx
   sudo ufw allow 80
   sudo ufw allow 443
+  sudo ufw allow $application_port
 }
 
 setup_venv() {
