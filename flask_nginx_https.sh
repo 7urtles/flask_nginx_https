@@ -12,6 +12,7 @@ get_port() {
 }
 setup_nginx() {
   sudo apt update
+  sudo aptt install -y python3 python3-pip nginx python3-setuptools git
   sudo apt install nginx
   sudo ufw allow 80
   sudo ufw allow 443
@@ -22,7 +23,7 @@ setup_venv() {
   mkdir $project_name && cd $project_name
   python3 -m venv venv
   source venv/bin/activate
-  pip install flask
+  pip install uwsgi flask flask-restful gunicorn
   deactivate
 }
 
