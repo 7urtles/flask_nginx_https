@@ -3,7 +3,7 @@ Quickly gets a basic Flask application online and communicating over https.<br>
 -Built and tested on Ubuntu 20.04.3 LTS. <br><br>
 
 **BEFORE RUNNING**<br>
-
+-Foward ports 80 and 443 to your machines local ip
 -Ensure your domain is online and active via http.<br>
 -If you are using CloudFlare or the like for DNS it is likely the domains SSL<br>settings need to be set to FULL.<br><br><br>
 
