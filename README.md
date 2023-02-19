@@ -26,7 +26,7 @@ It is recommended to back up ```/etc/nginx/sites-available/default``` prior to r
 git clone https://github.com/chparmley/flask_nginx_https.git
 cd flask_nginx_https
 chmod +x flask_nginx_https.sh
-./flask_nginx_https.sh
+sudo ./flask_nginx_https.sh
 ```
 <br><br>
 **AFTER RUNNING**<br>
