@@ -25,13 +25,13 @@ setup_venv() {
 
 create_wsgi_file() {
   sudo touch /var/www/${project_name}/wsgi.py
-  sudo echo -e "from myproject import app\nif __name__ == '__main__':\n    app.run()" > /var/www/${project_name}/wsgi.py
+  sudo echo -e "from $project_name import app\nif __name__ == '__main__':\n    app.run()" > /var/www/${project_name}/wsgi.py
   gunicorn --bind ${domain_name}:${application_port} wsgi:app
 }
 
 create_service_file() {
   sudo touch /etc/systemd/system/${project_name}.service
-  sudo echo -e "[Unit]\nDescription=Gunicorn instance to serve myproject\nAfter=network.target\n\n[Service]\nUser=$USER\nGroup=www-data\nWorkingDirectory=/var/www/${project_name}/\nEnvironment='PATH=/var/www/${project_name}/venv/bin'\nExecStart=/var/www/${project_name}/venv/bin/gunicorn --workers 3 --bind unix:${project_name}.sock -m 007 wsgi:app\n\n[Install]\nWantedBy=multi-user.target" >/etc/systemd/system/${project_name}.service
+  sudo echo -e "[Unit]\nDescription=Gunicorn instance to serve $project_name\nAfter=network.target\n\n[Service]\nUser=$USER\nGroup=www-data\nWorkingDirectory=/var/www/${project_name}/\nEnvironment='PATH=/var/www/${project_name}/venv/bin'\nExecStart=/var/www/${project_name}/venv/bin/gunicorn --workers 3 --bind unix:${project_name}.sock -m 007 wsgi:app\n\n[Install]\nWantedBy=multi-user.target" >/etc/systemd/system/${project_name}.service
 }
 
 start_service() {
